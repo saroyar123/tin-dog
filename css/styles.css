@@ -1,0 +1,161 @@
+body{
+    font-family: "Montserrat-black";
+}
+#title{
+    background-color: #ff4c68;
+}
+
+h1
+{   font-size: 4.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.cointener-fluid
+{
+    padding: 3% 15%;
+}
+/* logo */
+.navbar-brand
+{
+    font-size: 2.5rem;
+    padding: 0px;
+}
+.navbar
+{
+    padding-bottom: 100px;
+}
+.nav-item
+{
+    padding: 30px;
+    font-size:1.5rem ;
+}
+/* download button */
+.btn{
+    margin: 55px 30px;
+}
+/* dog img */
+.dog
+{
+    width: 25%;
+    transform: rotate(25deg);
+    
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 65px;
+}
+ /* Features */
+ #features
+ {
+     padding: 7% 15%;
+     background-color: white;
+     position: relative;
+    
+ }
+ .col-lg-4
+ {
+    text-align: center;
+    padding: 0px 50px;
+    
+ }
+ .icon
+ {
+     
+     color: #ff4c68;
+ }
+ .icon:hover{
+     color: red;
+
+ }
+
+ /* testimonials section */
+
+ #testimonials{
+     padding: 7% 15%;
+     text-align: center;
+     background-color: #ff4e68;
+     color: white;
+ }
+ h2
+ {
+     font-family:  "Montserrat-black";
+     font-size: 4rem;
+     height: 1.5;
+ }
+.testimonials-img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+/* press section */
+
+#press
+{
+    background-color:#ff4e68 ;
+    padding-bottom: 3%;
+    text-align: center;
+    
+}
+.press-logo
+{
+    margin: 40px 20px 100px;
+    width: 15%;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.card
+{
+  margin: 20% 1%;
+}
+.w-75{
+    background-color: #d8d9da;
+    color: black;
+    border: #c8c9ca solid 1px ;
+}
+
+/* respensive */
+
+@media (max-width:1000px){
+    .title{
+        text-align: center;
+    }
+
+    .dog{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+    
+}
+
+/* call of action */
+#cta
+{
+    background-color:#ff4e68 ;
+    padding: 8% 0%;
+    text-align: center;
+   
+}
+#cta h3{
+    color: white;
+    font-size: 4rem;
+    margin: 3% 15% ;
+
+
+}
+
+/* footer-section */
+#footer
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    font-size: 1rem;
+    
+}
+
